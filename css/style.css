@@ -1,0 +1,118 @@
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    body{
+      background-color: #fff;/*hsl(217, 54%, 11%); */
+      min-height: 100vh;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      font-family: 'Outfit', sans-serif;
+    }
+    main{
+      max-width: 20rem;
+      background-color: hsl(216, 50%, 16%);
+      border-radius: 10px;
+    }
+    
+    .image{
+      position: relative;
+      width: 100%;
+    }
+    .image:hover .overlay{
+      opacity: 0.6;
+    }
+
+    .equilibrium{      
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    
+    .icon-view{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      text-align: center;
+      transform: translate(-50%, -50%);
+    }
+    
+    .overlay{
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-color: hsla(178, 100%, 50%);
+      opacity: 0;
+      border-radius: 10px;
+
+    }
+
+    .padding{
+      padding: 2rem;
+    }
+    h1{
+      font-size: 1.5rem;
+      color: hsl(0, 0%, 100%);
+      margin-top: 1rem;
+    }
+    .description p:first-of-type, .expire-in, hr, .history-info{
+      color: hsl(215, 51%, 70%);
+    }
+
+    h1, .description p:first-of-type,.ethereum{
+      margin-bottom: 1rem;
+    }
+    .ethereum{
+      display: flex;
+      justify-content: space-between;
+    }
+    .balance{
+
+    }
+    p{
+      font-size: 1rem;
+    }
+    .expire-in{
+      align-items: center;
+    }
+    .balance{
+    }
+    .balance-info{
+      color: hsl(178, 100%, 50%);
+      align-self: center;
+    }
+    .history{
+      display: flex;
+      align-items: center;
+      font-size: 0.9rem;
+    }
+    .history-info{
+      margin-top: 0.8rem;
+    }
+    .avatar{
+      max-width: 100%;
+      height: auto;
+      width: 2rem;
+      border-radius: 100%;
+      margin-right: 1rem;
+    }
+    hr{
+      color: hsl(215, 32%, 27%);
+    }
+    .name{
+      color: hsl(0, 0%, 100%);
+      text-decoration: none;
+    }
+    h1:hover, .name:hover{
+      color: hsl(178, 100%, 50%);
+      cursor: pointer;
+    }
