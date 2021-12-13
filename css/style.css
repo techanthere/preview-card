@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
     *{
       padding: 0;
       margin: 0;
@@ -18,7 +19,7 @@
       background-color: hsl(216, 50%, 16%);
       border-radius: 10px;
     }
-    
+
     .image{
       position: relative;
       width: 100%;
@@ -27,13 +28,13 @@
       opacity: 0.6;
     }
 
-    .equilibrium{      
+    .equilibrium{
       display: block;
       width: 100%;
       height: auto;
       border-radius: 10px;
     }
-    
+
     .icon-view{
       position: absolute;
       top: 50%;
@@ -41,7 +42,7 @@
       text-align: center;
       transform: translate(-50%, -50%);
     }
-    
+
     .overlay{
       position: absolute;
       height: 100%;
