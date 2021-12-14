@@ -15,11 +15,11 @@
       font-family: 'Outfit', sans-serif;
     }
     main{
+      padding: 2rem;
       max-width: 20rem;
       background-color: hsl(216, 50%, 16%);
       border-radius: 10px;
     }
-
     .image{
       position: relative;
       width: 100%;
@@ -27,7 +27,6 @@
     .image:hover .overlay{
       opacity: 0.6;
     }
-
     .equilibrium{
       display: block;
       width: 100%;
@@ -56,10 +55,6 @@
       border-radius: 10px;
 
     }
-
-    .padding{
-      padding: 2rem;
-    }
     h1{
       font-size: 1.5rem;
       color: hsl(0, 0%, 100%);
@@ -76,16 +71,11 @@
       display: flex;
       justify-content: space-between;
     }
-    .balance{
-
-    }
     p{
       font-size: 1rem;
     }
     .expire-in{
       align-items: center;
-    }
-    .balance{
     }
     .balance-info{
       color: hsl(178, 100%, 50%);
